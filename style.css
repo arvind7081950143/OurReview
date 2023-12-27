@@ -1,0 +1,30 @@
+#col-12{
+    width: 350px;
+    background:rgb(231, 237, 237);
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 30px;
+    border:1px solid black;
+
+}
+i{
+    color: rgb(139, 233, 233);
+    margin: 3px;
+}
+i:hover{
+    color: gold;
+}
+.tag{
+    color: rgb(43, 97, 97);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+@media only screen and (min-width:320px) and (max-width:670px){
+    #col-12{
+    width: 90%;
+    margin-left:5%;
+    margin-top: 15px;
+
+} 
+}
